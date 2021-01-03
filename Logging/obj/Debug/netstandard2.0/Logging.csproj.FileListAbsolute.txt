@@ -1,0 +1,16 @@
+/home/simon/SimpelBlog/Logging/bin/Debug/netstandard2.0/Logging.deps.json
+/home/simon/SimpelBlog/Logging/bin/Debug/netstandard2.0/Logging.dll
+/home/simon/SimpelBlog/Logging/bin/Debug/netstandard2.0/Logging.pdb
+/home/simon/SimpelBlog/Logging/obj/Debug/netstandard2.0/Logging.csprojAssemblyReference.cache
+/home/simon/SimpelBlog/Logging/obj/Debug/netstandard2.0/Logging.AssemblyInfoInputs.cache
+/home/simon/SimpelBlog/Logging/obj/Debug/netstandard2.0/Logging.AssemblyInfo.cs
+/home/simon/SimpelBlog/Logging/obj/Debug/netstandard2.0/Logging.dll
+/home/simon/SimpelBlog/Logging/obj/Debug/netstandard2.0/Logging.pdb
+/home/simon/Projects/C#/SimpelBlog/Logging/bin/Debug/netstandard2.0/Logging.deps.json
+/home/simon/Projects/C#/SimpelBlog/Logging/bin/Debug/netstandard2.0/Logging.dll
+/home/simon/Projects/C#/SimpelBlog/Logging/bin/Debug/netstandard2.0/Logging.pdb
+/home/simon/Projects/C#/SimpelBlog/Logging/obj/Debug/netstandard2.0/Logging.csprojAssemblyReference.cache
+/home/simon/Projects/C#/SimpelBlog/Logging/obj/Debug/netstandard2.0/Logging.AssemblyInfoInputs.cache
+/home/simon/Projects/C#/SimpelBlog/Logging/obj/Debug/netstandard2.0/Logging.AssemblyInfo.cs
+/home/simon/Projects/C#/SimpelBlog/Logging/obj/Debug/netstandard2.0/Logging.dll
+/home/simon/Projects/C#/SimpelBlog/Logging/obj/Debug/netstandard2.0/Logging.pdb
