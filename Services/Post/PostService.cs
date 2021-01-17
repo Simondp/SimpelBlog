@@ -46,10 +46,6 @@ namespace SimpelBlog.Services
 
 		}
 
-		private object ExtractPostContent(string post)
-		{
-			throw new NotImplementedException();
-		}
 
 		public void DeletePost(Guid Id)
 		{
@@ -143,7 +139,7 @@ namespace SimpelBlog.Services
 			else
 			{
 				Directory.CreateDirectory($"{path}/{postTitel}");
-				UploadMediaToFolder(files,$"{path}/{postTitel}");
+				UploadMediaToFolder(files,$"{path}/{postTitel}/");
 			}
 		}
 
@@ -157,9 +153,10 @@ namespace SimpelBlog.Services
 				{
 					var filePath = path+formFile.FileName;
 
-					using (var stream = System.IO.File.Create(filePath))
+					using (var stream = File.Create(filePath))
 					{
 						formFile.CopyTo(stream);
+						
 					}
 				}
 			}

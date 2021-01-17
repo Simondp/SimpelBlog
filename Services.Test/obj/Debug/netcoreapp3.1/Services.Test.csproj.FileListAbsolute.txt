@@ -175,8 +175,6 @@
 /home/simon/Projects/C#/SimpelBlog/Services.Test/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Http.Abstractions.dll
 /home/simon/Projects/C#/SimpelBlog/Services.Test/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Http.Features.dll
 /home/simon/Projects/C#/SimpelBlog/Services.Test/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.WebUtilities.dll
-/home/simon/Projects/C#/SimpelBlog/Services.Test/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
-/home/simon/Projects/C#/SimpelBlog/Services.Test/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
 /home/simon/Projects/C#/SimpelBlog/Services.Test/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll
 /home/simon/Projects/C#/SimpelBlog/Services.Test/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
 /home/simon/Projects/C#/SimpelBlog/Services.Test/bin/Debug/netcoreapp3.1/Microsoft.DotNet.InternalAbstractions.dll
@@ -186,9 +184,6 @@
 /home/simon/Projects/C#/SimpelBlog/Services.Test/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll
 /home/simon/Projects/C#/SimpelBlog/Services.Test/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
 /home/simon/Projects/C#/SimpelBlog/Services.Test/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
-/home/simon/Projects/C#/SimpelBlog/Services.Test/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
-/home/simon/Projects/C#/SimpelBlog/Services.Test/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
-/home/simon/Projects/C#/SimpelBlog/Services.Test/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
 /home/simon/Projects/C#/SimpelBlog/Services.Test/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
 /home/simon/Projects/C#/SimpelBlog/Services.Test/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
 /home/simon/Projects/C#/SimpelBlog/Services.Test/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
@@ -314,3 +309,7 @@
 /home/simon/Projects/C#/SimpelBlog/Services.Test/obj/Debug/netcoreapp3.1/Services.Test.csproj.CopyComplete
 /home/simon/Projects/C#/SimpelBlog/Services.Test/obj/Debug/netcoreapp3.1/Services.Test.dll
 /home/simon/Projects/C#/SimpelBlog/Services.Test/obj/Debug/netcoreapp3.1/Services.Test.pdb
+/home/simon/Projects/C#/SimpelBlog/Services.Test/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.InMemory.dll
+/home/simon/Projects/C#/SimpelBlog/Services.Test/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+/home/simon/Projects/C#/SimpelBlog/Services.Test/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll
+/home/simon/Projects/C#/SimpelBlog/Services.Test/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll

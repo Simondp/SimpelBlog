@@ -1,0 +1,13 @@
+/home/simon/Projects/C#/SimpelBlog/Services/obj/Debug/netcoreapp3.1/Services.csprojAssemblyReference.cache
+/home/simon/Projects/C#/SimpelBlog/Services/obj/Debug/netcoreapp3.1/Services.AssemblyInfoInputs.cache
+/home/simon/Projects/C#/SimpelBlog/Services/obj/Debug/netcoreapp3.1/Services.AssemblyInfo.cs
+/home/simon/Projects/C#/SimpelBlog/Services/bin/Debug/netcoreapp3.1/Services.deps.json
+/home/simon/Projects/C#/SimpelBlog/Services/bin/Debug/netcoreapp3.1/Services.dll
+/home/simon/Projects/C#/SimpelBlog/Services/bin/Debug/netcoreapp3.1/Services.pdb
+/home/simon/Projects/C#/SimpelBlog/Services/bin/Debug/netcoreapp3.1/Logging.dll
+/home/simon/Projects/C#/SimpelBlog/Services/bin/Debug/netcoreapp3.1/Model.dll
+/home/simon/Projects/C#/SimpelBlog/Services/bin/Debug/netcoreapp3.1/Model.pdb
+/home/simon/Projects/C#/SimpelBlog/Services/bin/Debug/netcoreapp3.1/Logging.pdb
+/home/simon/Projects/C#/SimpelBlog/Services/obj/Debug/netcoreapp3.1/Services.csproj.CopyComplete
+/home/simon/Projects/C#/SimpelBlog/Services/obj/Debug/netcoreapp3.1/Services.dll
+/home/simon/Projects/C#/SimpelBlog/Services/obj/Debug/netcoreapp3.1/Services.pdb

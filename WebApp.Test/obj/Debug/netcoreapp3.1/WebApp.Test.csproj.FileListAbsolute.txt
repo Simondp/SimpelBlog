@@ -62,7 +62,6 @@
 /home/simon/Projects/C#/SimpelBlog/WebApp.Test/bin/Debug/netcoreapp3.1/Renci.SshNet.dll
 /home/simon/Projects/C#/SimpelBlog/WebApp.Test/bin/Debug/netcoreapp3.1/SshNet.Security.Cryptography.dll
 /home/simon/Projects/C#/SimpelBlog/WebApp.Test/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
-/home/simon/Projects/C#/SimpelBlog/WebApp.Test/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
 /home/simon/Projects/C#/SimpelBlog/WebApp.Test/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
 /home/simon/Projects/C#/SimpelBlog/WebApp.Test/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
 /home/simon/Projects/C#/SimpelBlog/WebApp.Test/bin/Debug/netcoreapp3.1/System.Xml.XPath.XmlDocument.dll
@@ -154,3 +153,13 @@
 /home/simon/Projects/C#/SimpelBlog/WebApp.Test/obj/Debug/netcoreapp3.1/WebApp.Test.csproj.CopyComplete
 /home/simon/Projects/C#/SimpelBlog/WebApp.Test/obj/Debug/netcoreapp3.1/WebApp.Test.dll
 /home/simon/Projects/C#/SimpelBlog/WebApp.Test/obj/Debug/netcoreapp3.1/WebApp.Test.pdb
+/home/simon/Projects/C#/SimpelBlog/WebApp.Test/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/simon/Projects/C#/SimpelBlog/WebApp.Test/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+/home/simon/Projects/C#/SimpelBlog/WebApp.Test/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/simon/Projects/C#/SimpelBlog/WebApp.Test/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+/home/simon/Projects/C#/SimpelBlog/WebApp.Test/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/simon/Projects/C#/SimpelBlog/WebApp.Test/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+/home/simon/Projects/C#/SimpelBlog/WebApp.Test/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+/home/simon/Projects/C#/SimpelBlog/WebApp.Test/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/simon/Projects/C#/SimpelBlog/WebApp.Test/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+/home/simon/Projects/C#/SimpelBlog/WebApp.Test/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll

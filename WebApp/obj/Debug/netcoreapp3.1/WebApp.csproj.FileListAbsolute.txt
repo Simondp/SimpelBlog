@@ -185,3 +185,10 @@
 /home/simon/Projects/C#/SimpelBlog/WebApp/obj/Debug/netcoreapp3.1/staticwebassets/WebApp.StaticWebAssets.xml
 /home/simon/Projects/C#/SimpelBlog/WebApp/obj/Debug/netcoreapp3.1/WebApp.dll
 /home/simon/Projects/C#/SimpelBlog/WebApp/obj/Debug/netcoreapp3.1/WebApp.pdb
+/home/simon/Projects/C#/SimpelBlog/WebApp/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/simon/Projects/C#/SimpelBlog/WebApp/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/simon/Projects/C#/SimpelBlog/WebApp/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+/home/simon/Projects/C#/SimpelBlog/WebApp/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+/home/simon/Projects/C#/SimpelBlog/WebApp/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/simon/Projects/C#/SimpelBlog/WebApp/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+/home/simon/Projects/C#/SimpelBlog/WebApp/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll

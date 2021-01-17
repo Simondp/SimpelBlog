@@ -8,10 +8,11 @@ using Microsoft.AspNetCore.Mvc;
 using SimpelBlog.Logging;
 using SimpelBlog.Model;
 using SimpelBlog.Services;
-
+using Microsoft.AspNetCore.Authorization;
 namespace WebApp.Controllers.API
 {
 	[Route("api/[controller]")]
+	[Authorize]
 	[ApiController]
 	public class PostController:ControllerBase
 	{
