@@ -1,16 +1,16 @@
 using System.IO;
-using Microsoft.EntityFrameworkCore;
 using NUnit.Framework;
 using SimpelBlog.Mock;
 using SimpelBlog.Model;
 using SimpelBlog.Services;
-using System;
 using Microsoft.AspNetCore.Http;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
+
 namespace SimpelBlog.UnitTests.Services
 {
-	[TestFixture]
+    [TestFixture]
 	public class PostServiceTest
 	{
 		private BlogContext _ctx;
