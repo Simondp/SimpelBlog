@@ -14,3 +14,4 @@
 /home/simon/Projects/C#/SimpelBlog/Logging/obj/Debug/netstandard2.0/Logging.AssemblyInfo.cs
 /home/simon/Projects/C#/SimpelBlog/Logging/obj/Debug/netstandard2.0/Logging.dll
 /home/simon/Projects/C#/SimpelBlog/Logging/obj/Debug/netstandard2.0/Logging.pdb
+/home/simon/Projects/C#/SimpelBlog/Logging/obj/Debug/netstandard2.0/Logging.csproj.CoreCompileInputs.cache

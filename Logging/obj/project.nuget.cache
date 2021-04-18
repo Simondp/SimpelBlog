@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "fMwuh2SKpq+fcws4lLmGdsGvwUMokaIW/cTKCf49HBFEd100MQZ7ayw+/SmsLVCA8dWwdXFf6AG0rqzvx6J0vA==",
+  "success": true,
+  "projectFilePath": "/home/simon/Projects/C#/SimpelBlog/Logging/Logging.csproj",
+  "expectedPackageFiles": [
+    "/home/simon/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/simon/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/home/simon/.nuget/packages/nlog/4.7.5/nlog.4.7.5.nupkg.sha512"
+  ],
+  "logs": []
+}

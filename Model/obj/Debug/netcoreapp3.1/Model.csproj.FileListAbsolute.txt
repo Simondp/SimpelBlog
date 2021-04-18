@@ -1,0 +1,12 @@
+/home/simon/Projects/C#/SimpelBlog/Model/bin/Debug/netcoreapp3.1/Model.deps.json
+/home/simon/Projects/C#/SimpelBlog/Model/bin/Debug/netcoreapp3.1/Model.dll
+/home/simon/Projects/C#/SimpelBlog/Model/bin/Debug/netcoreapp3.1/Model.pdb
+/home/simon/Projects/C#/SimpelBlog/Model/bin/Debug/netcoreapp3.1/Logging.dll
+/home/simon/Projects/C#/SimpelBlog/Model/bin/Debug/netcoreapp3.1/Logging.pdb
+/home/simon/Projects/C#/SimpelBlog/Model/obj/Debug/netcoreapp3.1/Model.csprojAssemblyReference.cache
+/home/simon/Projects/C#/SimpelBlog/Model/obj/Debug/netcoreapp3.1/Model.AssemblyInfoInputs.cache
+/home/simon/Projects/C#/SimpelBlog/Model/obj/Debug/netcoreapp3.1/Model.AssemblyInfo.cs
+/home/simon/Projects/C#/SimpelBlog/Model/obj/Debug/netcoreapp3.1/Model.csproj.CopyComplete
+/home/simon/Projects/C#/SimpelBlog/Model/obj/Debug/netcoreapp3.1/Model.dll
+/home/simon/Projects/C#/SimpelBlog/Model/obj/Debug/netcoreapp3.1/Model.pdb
+/home/simon/Projects/C#/SimpelBlog/Model/obj/Debug/netcoreapp3.1/Model.csproj.CoreCompileInputs.cache

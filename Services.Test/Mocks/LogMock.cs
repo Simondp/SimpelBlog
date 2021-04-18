@@ -1,6 +1,7 @@
 
 
 using System;
+using NUnit.Framework;
 using SimpelBlog.Logging;
 
 namespace SimpelBlog.Mock
@@ -13,7 +14,7 @@ namespace SimpelBlog.Mock
 
 		public void LogDebug(string message)
 		{
-			Console.WriteLine(message);
+			TestContext.WriteLine(message);
 		}
 
 		public void LogError(string message, Exception e)

@@ -4,8 +4,9 @@ namespace SimpelBlog.Services
 {
 	public interface IValidation
 	{
-		User AuthenticateUser(User user);
+		bool AuthenticateUser(string username,string password);
 		string GenerateJWTToken(User user);
-	}
+        string GenerateNewToken(string token);
+    }
 
 }

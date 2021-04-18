@@ -5,43 +5,37 @@ using SimpelBlog.Model;
 using SimpleBlog.Services;
 using System.Linq;
 using SimpelBlog.Logging.Exceptions;
+using Microsoft.AspNetCore.Identity;
 
 namespace SimpelBlog.Services
 {
-	public class UserService : IUserService
+	public class UserService : IUserService 
 	{ 
+		private readonly UserManager<User> _userManager;
 		private readonly ISimpelLogger _logger;
 		private readonly BlogContext _ctx;
-		public UserService(ISimpelLogger logger, BlogContext ctx){
+		public UserService(ISimpelLogger logger, BlogContext ctx,UserManager<User> userManager){
 			_logger = logger;
 			_ctx = ctx;	
+			_userManager = userManager;
 		}
 
-		public void CreateUser(User user)
+		public void CreateUser(User user,string password)
 		{
-
-			if(IsValidUser(user))
-			{
-				_ctx.Add(user);
-				_ctx.SaveChanges();
-			}
+            
+			var newUser = _userManager.CreateAsync(user,password).Result;
 		}
+        public void AddRolesToUser(User user, List<string> roles)
+        {
+            _userManager.AddToRolesAsync(user,roles).Wait();
+        }
 
-		public bool IsValidUser(User user)
-		{
-			try
-			{
-				var validUser = !string.IsNullOrEmpty(user.username) && !string.IsNullOrEmpty(user.password);
-				var userExists = (from u in _ctx.Users
-						where u.username.Equals(user.username)
-						select u).ToList().Any();
-				return validUser && !userExists;
-			}
-			catch(Exception e)
-			{
-				throw e;
-			}
-		}
+        public List<string> GetUserRoles(User user)
+        {
+            
+                return _userManager.GetRolesAsync(user).Result as List<string>;
+               
+        }
 
 		public bool IsFirstUser()
 		{
@@ -67,9 +61,7 @@ namespace SimpelBlog.Services
 		{
 			try
 			{
-				return (from u in _ctx.Users
-						where u.username == username	
-						select u).First();
+				return _userManager.FindByNameAsync(username).Result;
 			}
 			catch(Exception e)
 			{
@@ -81,18 +73,7 @@ namespace SimpelBlog.Services
 		{
 			try
 			{
-				var storedUser = (from u in _ctx.Users
-						where u.Id == user.Id
-						select u).First();
-				//Update relevant fields.
-				storedUser.username = user.username ?? storedUser.username;
-				storedUser.firstName = user.firstName ?? storedUser.firstName;
-				storedUser.lastName = user.lastName ?? storedUser.lastName;
-				storedUser.bio = user.bio ?? storedUser.bio;
-				storedUser.password = user.password ?? storedUser.password;
-
-				_ctx.Update(storedUser);
-				_ctx.SaveChanges();
+				_userManager.UpdateAsync(user);
 			}
 			catch(Exception e)
 			{
@@ -104,11 +85,10 @@ namespace SimpelBlog.Services
 		{
 			try
 			{
-				var user = (from u in _ctx.Users
-						where u.Id == id
-						select u).First();
-				_ctx.Remove(user);
-				_ctx.SaveChanges();
+				
+			
+				var userToDelete = _userManager.FindByIdAsync(id.ToString()).Result;
+				_userManager.DeleteAsync(userToDelete);
 			}
 			catch(Exception e)
 			{
@@ -116,5 +96,10 @@ namespace SimpelBlog.Services
 			}
 		}
 
-	}
+        public bool ValidatePassword(string username, string password)
+        {
+            var user = GetUserByUsername(username);
+            return _userManager.CheckPasswordAsync(user,password).Result;
+        }
+    }
 }

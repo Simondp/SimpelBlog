@@ -12,8 +12,8 @@ using Microsoft.AspNetCore.Authorization;
 namespace WebApp.Controllers.API
 {
 	[Route("api/[controller]")]
-	[Authorize]
-	[ApiController]
+	[Authorize(AuthenticationSchemes = "Bearer",Roles="Admin")]
+    [ApiController]
 	public class PostController:ControllerBase
 	{
 		private readonly IPost _postService;

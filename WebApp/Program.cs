@@ -13,8 +13,6 @@ namespace WebApp
 	    try
 	    {
 		    
-		Console.Write("Hello world \n");    
-		logger.LogDebug("Init main");    
             	CreateHostBuilder(args).Build().Run();
 	    }
 	    catch(Exception exception){
